@@ -1,0 +1,12 @@
+# RealNVP Configuration
+
+model:
+  n_coupling_layers: 14
+  n_hidden: 2
+  hidden_units: 128
+
+training:
+  epochs: 500
+  batch_size: 2048
+  learning_rate: 0.001
+  lr_decay: 0.999
