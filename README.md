@@ -7,7 +7,7 @@ Implementation of two generative models for density estimation and sample genera
 ## Project Structure
 
 ```
-generative_models/
+generative-models/
 ├── train_realnvp.py      # Train RealNVP model
 ├── train_ddpm.py         # Train DDPM model
 ├── 689_data.csv          # 2D dataset (65,536 samples)
@@ -29,7 +29,7 @@ generative_models/
 ## Installation
 
 ```bash
-cd generative_models
+cd generative-models
 
 # Create virtual environment (optional)
 python -m venv venv
